@@ -145,7 +145,7 @@ class LoginView extends GetView<LoginController> {
                       ),
                     ],
                   ),
-                  SizedBox(height: 5),
+                  const SizedBox(height: 5),
                   RichText(
                     text: TextSpan(
                       text: 'Don\'t have any account? ',
