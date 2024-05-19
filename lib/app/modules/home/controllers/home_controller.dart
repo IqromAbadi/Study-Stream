@@ -1,11 +1,16 @@
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
+  final selectedValueIndex = 0.obs;
 
-  final count = 0.obs;
-
-
-
-  void increment() => count.value++;
+  final buttonText = [
+    "Flutter",
+    "Web Design",
+    "App Design",
+    "Python",
+    "Web Programming",
+    "Graphic Design",
+    "Game Dev",
+    "Machine Learning",
+  ];
 }
