@@ -11,6 +11,9 @@ abstract class Routes {
   static const ONBOARDING_2 = _Paths.ONBOARDING_2;
   static const OBOARDING = _Paths.OBOARDING;
   static const ONBOARDING = _Paths.ONBOARDING;
+  static const COMUNITY = _Paths.COMUNITY;
+  static const CERTIFICATE = _Paths.CERTIFICATE;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -23,4 +26,7 @@ abstract class _Paths {
   static const ONBOARDING_2 = '/onboarding-2';
   static const OBOARDING = '/oboarding';
   static const ONBOARDING = '/onboarding';
+  static const COMUNITY = '/comunity';
+  static const CERTIFICATE = '/certificate';
+  static const PROFILE = '/profile';
 }
