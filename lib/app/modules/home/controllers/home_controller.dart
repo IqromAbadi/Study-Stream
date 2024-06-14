@@ -1,8 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:studystream/app/modules/certificate/views/certificate_view.dart';
+import 'package:studystream/app/modules/comunity/views/comunity_view.dart';
+import 'package:studystream/app/modules/home/views/home_view.dart';
+import 'package:studystream/app/modules/profile/views/profile_view.dart';
 
 class HomeController extends GetxController {
   final selectedValueIndex = 0.obs;
+  final currentIndex = 0.obs;
+
+  final List<Widget> pages = [
+    const HomeView(),
+    const ComunityView(),
+    const CertificateView(),
+    const ProfileView(),
+  ];
+
+  void changeTabIndex(int index) {
+    currentIndex.value = index;
+  }
 
   // Data text content setelah search
   final buttonText = [
