@@ -15,7 +15,7 @@ class ComunityController extends GetxController {
     "Flutter",
   ];
 
-  // Data images content continue watching
+  // Data images content Comunity
   final List<DecorationImage> imagesContentComunity = [
     const DecorationImage(
       image: AssetImage("assets/images/comunity/webdesign.jpg"),
